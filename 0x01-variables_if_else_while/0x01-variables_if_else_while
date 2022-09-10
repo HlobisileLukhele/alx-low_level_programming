@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *main - Entry poit
+ *
+ *Decription: checks if positive or negative
+ *
+ *Return : 0
+ */
+int mai (void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+       
+        if ( n > 0) 
+        {
+             printf ("%d is positive\n", n),2;
+        }
+
+        if ( n = 0)
+        {
+             printf ("%d is zero\n", n)2;
+        }
+        
+        if (n < 0) 
+        {
+             printf ("%d is negative\n", n)2;
+        }
+	return (0);
+}
