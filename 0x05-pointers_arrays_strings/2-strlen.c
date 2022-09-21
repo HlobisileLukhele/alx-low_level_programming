@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _strlen - returns the length of a string
+ * _strlen: - returns the length of a string
  * @s: string
  * return: returns  length as integer;
  * Description: returns the length of a string
